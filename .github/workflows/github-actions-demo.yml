@@ -1,3 +1,13 @@
 name: GitHub Actions Demo
-run-name: testisleapyear.java 
+run-name: ${{ github.actor }}
 on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: List files in the repository
+        run: |
+          ls ${{ testisleapyear.java  }}
