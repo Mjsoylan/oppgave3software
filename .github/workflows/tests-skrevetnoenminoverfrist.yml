@@ -1,13 +1,13 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  do tests:
+  dotests:
     runs-on: ubuntu-latest
-    steps:"
+    steps:
       - name: Check out repository code
         uses: actions/checkout@v2
 
       - name: run test
         run: |
           ls  oblig2software/src/test/java/testisleapyear.java
-  
+        
