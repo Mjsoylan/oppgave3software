@@ -4,4 +4,4 @@ jeg endrete den så den kjørte testene mine men fikk ikke den til å sende log 
 nå fikk jeg ikke testen til å kjøre 
 
 
-opdate
+opdatee
